@@ -1,0 +1,34 @@
+# ---------------- Secrets & env ----------------
+.env
+.env.*
+!.env.example
+firebase-service-account.json
+*firebase*.json
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/tsconfig*.json
+
+# ---------------- Backend (Python) ----------------
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+backend/htmlcov/
+backend/.coverage
+
+# ---------------- Frontend (Node) ----------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/.tsbuildcache/
+frontend/*.tsbuildinfo
+frontend/coverage/
+
+# ---------------- OS / editor ----------------
+.DS_Store
+*.log
+.vscode/
+.idea/
