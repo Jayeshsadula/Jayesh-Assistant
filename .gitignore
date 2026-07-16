@@ -18,6 +18,7 @@ backend/app/uploads/*
 !backend/app/uploads/.gitkeep
 backend/htmlcov/
 backend/.coverage
+backend/!.env.example
 
 # ---------------- Frontend (Node) ----------------
 frontend/node_modules/
